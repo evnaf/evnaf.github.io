@@ -1,166 +1,142 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Evan Foote</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carpenter Simulator - A woodcraft and furniture-building simulation game.">
+    <title>Carpenter Simulator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>I am Evan Foote</strong>, a Florida State University Graduate<br />
-					Seeking opportunities in Software Engineering<br /></h1>
-				</div>
-			</header>
+        header {
+            background-color: #2d3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-		<!-- Main -->
-			<div id="main">
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>About Myself.</h2>
-						</header>
-						<p>I am a FSU Graduate with a B.S. in Cyber Criminology - Computer Science, with an Associates of Arts Degree from Tallahassee Community College.
-						I enjoy cooking, writing code, agile methodology, neural networking, game design, and German language/culture. Feel free to check out my Resume, along with my work! Thank you for stopping by!</p>
-						<ul class="actions">
-							<li><a href="EvanFoote_Resume-2022.pdf" class="button">My Resume</a></li>
-						</ul>
-					</section>
+        section {
+            padding: 40px;
+            text-align: center;
+        }
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Typo No Tatsujin</h3>
-								<p>Rhythm based Typing game for software engineering capstone project.
-									Created a Game using Unity engine, Midi, Photoshop. Using scripts written in
-									C# to make a game similar to Dance Dance Revolution, but instead of
-									pressing 4 keys, we added the element of learning to type. Would generate a
-									list of random letters to press on keyboard that corresponded to notes of the
-									song.<br>Used Doxygen HTML, C#, C++, Js, Json, MySQL, Git, Unity</p>
-									<br>
-									<ul class="actions">
-										<li><a href="https://www.youtube.com/watch?v=mSeqQm_0xiU" class="button">View Project Video(Explicit Song)</a></li>
-									</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>OpenStreetMaps Parsing</h3>
-								<p>Created a C++ Project that handles OSM file
-									types(map file type similar to Google Maps) that
-									would parse through the file using Regex to find
-									matches of nodes, ways, latitudes, and
-									longitudes to sort, find count, and calculate
-									average latitude and longitude<br>Used Doxygen HTML, C++, OSMViewer</p>
-									<br>
-									<ul class="actions">
-										<li><a href="OSM.zip" class="button">View Code</a></li>
-									</ul>
-									
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Roman Numeral : Integer Converter</h3>
-								<p>Created a Class called Roman that will handle
-									translation between Roman numeral, and
-									integer. Added ability to add two roman
-									numerals together and do other base arithmetic
-									between roman numerals instead of integers.<br>Used Doxygen HTML, C++</p>
-									<br>
-									<ul class="actions">
-										<li><a href="RomanToInt.zip" class="button">View Code</a></li>
-									</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Word, Number, and Character usage statistics tracker</h3>
-								<p>C++ Class to satisfy my ABET Assessment,
-									using algorithm complexity analysis. Created
-									Class to store characters, words, and numbers
-									in an unordered map container. Displaying a top
-									10 of each category.</p>
-									<br>
-									<ul class="actions">
-										<li><a href="UsageStatsTracker.zip" class="button">View Code</a></li>
-									</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>FarmToTable Idle - WIP</h3>
-								<p>Android application, matrix of farming plots,
-									cookie clicker style seed earnings to plant crops
-									with real-time timers for crop rotations, crops
-									sold for coins, coins spent on upgrades.<br>Using C#, Blender for character animations,
-									C++, Git, Unity</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Isometric Civilization/War game - Current Free time Project</h3>
-								<p>Android and Apple builds, Isometric view town
-									builder similar to Clash of Clans, Strategy game,
-									based on personal created color schemes and
-									nations with unique abilities.<br>Blender, Photoshop, Unity, C#, Tilemaps,
-									UIBuilder, Git</p>
-							</article>
-						</div>
-						</ul>
-					</section>
+        .releases, .showcase, .wishlist {
+            margin-top: 40px;
+        }
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Feel free to shoot me an Email, or Contact me via LinkedIn Messenger</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										
-									</div>
-								</form>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-map-pin"><span class="label">Currently Located in</span></h3>
-										Tallahassee, Florida<br />
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">FooteEvanFL@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-			</div>
+        .release-item {
+            display: inline-block;
+            background: #fff;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/evan-foote-47a398129/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/evnaf" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.hackerrank.com/footeevanfl?hr_r=1" class="icon brands fa-hackerrank"><span class="label">Hackerrank</span></a></li>
-						<li><a href="mailto:footeevanfl@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</footer>
+        .release-item h3 {
+            margin-top: 0;
+            color: #2d3e50;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        .showcase {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
 
-	</body>
+        .showcase img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            background-color: #ddd;
+        }
+
+        .wishlist {
+            background-color: #ff4c4c;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 50px;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #2d3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Carpenter Simulator</h1>
+    <p>A fun, immersive woodcraft and furniture-building simulation game</p>
+</header>
+
+<section class="releases">
+    <h2>Recent Releases</h2>
+    <div class="release-item">
+        <h3>Alpha Version 1.0</h3>
+        <p>Released: March 2025</p>
+        <a href="#">Download</a>
+    </div>
+    <div class="release-item">
+        <h3>Beta Version 1.5</h3>
+        <p>Released: April 2025</p>
+        <a href="#">Download</a>
+    </div>
+    <div class="release-item">
+        <h3>Upcoming Version 2.0</h3>
+        <p>Release Date: Summer 2025</p>
+        <a href="#">Learn More</a>
+    </div>
+</section>
+
+<section class="showcase">
+    <h2>Game Showcase</h2>
+    <div>
+        <img src="https://via.placeholder.com/250x150?text=Screenshot+1" alt="Screenshot 1">
+        <img src="https://via.placeholder.com/250x150?text=Screenshot+2" alt="Screenshot 2">
+        <img src="https://via.placeholder.com/250x150?text=Screenshot+3" alt="Screenshot 3">
+        <img src="https://via.placeholder.com/250x150?text=Screenshot+4" alt="Screenshot 4">
+    </div>
+</section>
+
+<section class="wishlist">
+    <p><strong>Coming Soon to Steam!</strong> Add Carpenter Simulator to your wishlist now!</p>
+    <p><a href="https://store.steampowered.com/" target="_blank">Wishlist on Steam</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Carpenter Simulator | All rights reserved.</p>
+</footer>
+
+</body>
 </html>
